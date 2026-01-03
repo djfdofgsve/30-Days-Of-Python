@@ -1,40 +1,62 @@
+#Day 2: 30 Days of python programming
+first_name = "Grigoriy"
+last_name = "Pilipenko"
+full_name = "Grigoriy Pilipenko"
+country = "Russia"
+city = "Moscow"
+age = 18
+year = 2026
+is_married = False
+is_light_on = True
+personal_inf = {
+    'first_name' : 'Grigoriy',
+    'last_name' : 'Pilipenko',
+    'age' : '18',
+    'is_married' : 'no'
+}
 
-# Variables in Python
+print(type(first_name))
+print(type(last_name))
+print(type(full_name))
+print(type(country))
+print(type(age))
+print(type(year))
+print(type(is_married))
+print(type(personal_inf))
 
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-country = 'Finland'
-city = 'Helsinki'
-age = 250
-is_married = True
-skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
-person_info = {
-    'firstname':'Asabeneh', 
-    'lastname':'Yetayeh', 
-    'country':'Finland',
-    'city':'Helsinki'
-    }
-
-# Printing the values stored in the variables
-
-print('First name:', first_name)
 print('First name length:', len(first_name))
-print('Last name: ', last_name)
-print('Last name length: ', len(last_name))
-print('Country: ', country)
-print('City: ', city)
-print('Age: ', age)
-print('Married: ', is_married)
-print('Skills: ', skills)
-print('Person information: ', person_info)
+print('lenth of last name:', len(last_name))
 
-# Declaring multiple variables in one line
+num_one = 5
+num_two = 4
+total = num_one + num_two
+print(total)
+diff = num_two - num_one
+print(diff)
+product = num_one * num_two
+print(product)
+division = num_one / num_two
+print(division)
+remainder = num_two % num_one
+print(remainder)
+exp = num_one ** num_two
+print(exp)
+floor_division = num_one // num_two
+print(floor_division)
 
-first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
+r = float(input())
+import math
+area_of_circle = math.pi * r ** 2
+print(area_of_circle)
+import math
+circum_of_circle = math.pi * 2 * r
+print(circum_of_circle)
 
-print(first_name, last_name, country, age, is_married)
-print('First name:', first_name)
-print('Last name: ', last_name)
-print('Country: ', country)
-print('Age: ', age)
-print('Married: ', is_married)
+a = input("Введите имя: ")
+b = input("Введите фамилию: ")
+c = input("В какой вы сейчас стране? ")
+d = int(input("Введите сколько вам лет? "))
+print("имя: " , a)
+print("фамилия: " , b)
+print("страна: " , c)
+print("возраст: " , d)
